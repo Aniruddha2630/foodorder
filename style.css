@@ -1,0 +1,670 @@
+/* css Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* Navbar Section */
+header{
+    position: sticky;
+    top: 0px;
+    background: rgb(0, 0, 0); 
+    z-index: 2;
+}
+#navigation{
+display: flex;
+width: 100%;
+height: 83px;
+position: absolute;      
+
+
+
+}
+#navigation::before{
+    content: "";
+    background: rgb(91, 98, 109) no-repeat center center/cover;
+    position:absolute;
+    width: 100%;
+   height: 90px;
+    z-index: -1;
+    opacity: 1.0;
+
+   
+
+   
+}
+.nav{
+    width: calc(100% / 3);
+   
+}
+
+#logo{
+    /* border: 1px solid black; */
+    width: 6rem;
+    margin: 3px;
+
+    
+  
+}
+#logo img {
+    width: 4rem;
+    height: 4rem;
+    margin: 9px 15px;
+  
+}
+
+#navbar{
+    width: 76rem;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar ul{
+    display: flex;
+    list-style: none;
+    
+    
+}
+#navbar ul li{
+   margin: 5px 3px;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+ 
+
+}
+#navbar ul li a{
+   
+    padding: 8px 8px;
+    margin-right: 22px;
+   color: black;
+   font-weight: bold;
+    font-size: 21px;
+    text-decoration: none;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+#navbar ul li a:hover{
+   
+    background-color: black;
+    color: white;
+    border-radius: 9px;
+
+}
+#loginsection{
+    width: 42rem;
+    /* border: 2px inset blue  ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0px;
+    top: 0px;
+}
+
+#login input{
+    padding: 5px 0px;
+    padding-left: 2rem;
+    border-radius: 5rem;
+    margin-right: 1rem;
+    font-size: 16px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#login button{
+    padding: 7px 12px;
+    font-size: 16px;
+    margin-right:1rem ;
+    border-radius: 5rem;
+    background-color:  #1877f2;
+    color: white;
+    cursor: pointer;
+    /* border: none; */
+    box-shadow: 1px 1px 3px rgb(109, 73, 73);
+    font-family: 'Baloo Bhai 2', cursive;
+    
+}
+
+
+/* Home Section  */
+#homesection{
+    /* border: 2px solid green; */
+   
+    height: 600px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+ 
+    
+}
+#homesection::before{
+
+    content: "";
+    background: url("https://cdn.pixabay.com/photo/2014/05/18/11/25/pizza-346985_960_720.jpg") no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#home{
+    /* border: 1px solid blue; */
+   
+    display: flex;
+    width: 78%;
+    flex-direction: column;
+    position: relative;
+    top: 150px;
+    height: 400px;
+    align-items: center;
+    padding-top: 50px;
+    /* justify-content: center; */
+ 
+}
+
+.home-middle
+{
+    margin-top: 5px;
+}
+.home-middle select{
+    padding: 10px 120px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-right: 57px;
+    font-family: 'Baloo Bhai 2', cursive;
+   
+}
+
+
+.home-middle button{
+    padding: 7px 122px;
+   
+    font-size: 20px;
+    margin-right: 1rem;
+    border-radius: 5px;
+    background: #3ca69f;
+    color: white;
+    cursor: pointer;
+    /* border: none; */
+    box-shadow: 1px 1px 3px rgb(109 73 73);
+    font-family: 'Baloo Bhai 2', cursive
+}
+
+.home-bottom{
+    margin-top: 40px;
+
+}
+
+.home-bottom button{
+    padding: 8px 98px;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+
+/* Our Services */
+
+
+
+#ourServices{
+    /* border: 3px solid rgb(0, 0, 0); */
+    height: 100%;
+    top: 18px;
+    
+    position: relative;
+ 
+    /* justify-content: center;
+    align-items: center; */
+}
+
+
+#ourServices::before{
+    content: "";
+    width:100%;
+    height: 97%;
+    background-color: rgb(176, 127, 255);
+    position: absolute;
+    z-index: -1;
+    opacity: 0.09;
+}
+#service{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box{
+    width: calc(75% / 3);
+    border: 2px solid rgb(122 109 118);
+    height: 341px;
+    border-radius: 10px;
+    margin: 39px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: rgb(230 230 230);
+   
+    
+}
+.box img{
+   
+    margin-top: 10px;
+    width: 220px;
+    height: 175px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+
+
+}
+
+
+/* Increase your online sales with all the right tools */
+
+
+#online-sale::before{
+    content: "";
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    background:#7a7a7a; /* #b0b0b0 - optional Color*/
+    z-index: -1;
+  
+    opacity: 0.1;
+
+    
+}
+.main-online-sale{
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.box-online{
+    
+    width: calc(80% / 3);
+    /* border: 1px solid black; */
+    background-color: #fafafa;
+    height: 200px;
+    margin: 22px 9px;
+    padding: 31px 27px;
+    justify-content: space-evenly;
+    overflow: auto;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: row;
+}
+.imgstyke
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.imgstyke img{
+    /* border: 1px solid black; */
+    width: 80px;
+    height: 90px;
+    /* position: relative; */
+   margin-right: 40px;
+}
+
+.online-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+
+
+
+
+/* our prodcut section */
+
+#ourProduct-Section{
+    width: 100%;
+  
+    height: 500px;
+    /* height: 100vh; */
+    /* border: 2px solid black; */
+    align-items: center;
+    position: relative;
+
+}
+#ourProduct-Section::before{
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background: #5e5e5e no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.2;
+
+}
+#ourProduct{
+    /* border: 2px solid green; */
+    height: 90%;
+    width: 90%;
+    margin: 0px 50px;
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content:space-around;
+}
+
+.product-box{
+    height: 150px;
+    /* border: 1px solid rgb(0, 0, 0); */
+    width: calc(70% / 5);
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin: 20px 20px;
+}
+.product-box img{
+   
+}
+
+.imgclass{
+    /* border: 2px solid black; */
+    width: 70px;
+    margin: 8px auto;
+    display: block;
+   
+}
+
+
+
+/* From Section */
+
+#contact-section{
+    /* border: 2px solid black; */
+   height: 700px;
+    width: 100%;
+    position: relative;
+    margin-top:100px ;
+    /* top: 50px; */
+}
+#contact-section::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #f7f9f9 no-repeat center center/cover;
+    z-index: -1;
+    opacity: 1.0;
+
+}
+
+.from-heading{
+    font-size: 23px;
+    text-align: center;
+    
+}
+.from-heading p{
+    margin-top: 5px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    
+}
+.from-heading h1::after{
+    content:"Lime!";
+    color:green;
+    
+}
+
+#main-contact{
+/* border: 1px groove red; */
+height: 100%;
+
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.from-contain div{
+    margin: 20px 10px;
+    /* border: 2px solid black; */
+}
+.from-contain input{
+    padding: 8px 183px 8px 4px;
+}
+.from-inputtype{
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-family: 'Baloo Bhai 2', cursive;
+            background-color: rgb(234 232 232);;
+    border: none;
+}
+
+
+#city-country select{
+    padding: 10px 60px;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Baloo Bhai 2', cursive;
+            background-color: rgb(234 232 232);;
+
+}
+
+#city-country input{
+    padding: 8px 26px 8px 4px;
+    font-family: 'Baloo Bhai 2', cursive;
+        background-color: rgb(234 232 232);;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.from-contain textarea{
+    padding: 4px 3px;
+    font-size: 15px;
+    border: none;
+    font-family: 'Baloo Bhai 2', cursive;
+            background-color: rgb(234 232 232);;
+    border-radius: 5px;
+}
+#submit-Button{
+    text-align: center;
+   
+    margin-top: 0px;
+    margin: 0 auto;
+}
+#submit-Button button{
+   
+    padding: 10px 177px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    background: #04b261;
+    border: none;
+    border-radius: 4px;
+    
+}
+
+
+
+/* Footer Section */
+
+#footer-section{
+width: 100%;
+height: 500px;
+border: 2px solid green;
+}
+#footer-section::before{
+    content: "";
+    width: 100%;
+   
+    height: 500px;
+    background-color: #005200!important;
+    position: absolute;
+    /* opacity: 0.9; */
+    z-index: -1;
+
+
+}
+#main-footer{
+    /* border: 2px solid rgb(238, 18, 18); */
+    display: flex;
+    width: 100%;
+    position: absolute;
+    justify-content: space-around;
+   margin-top: 30px;
+}
+.box-footer{
+   
+    width: calc(90% / 4);
+    height: 200px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    
+}
+
+.box-inside-box{
+    display: flex;
+    /* flex-direction: ; */
+    align-items: center;
+    margin-bottom: 2px;
+   /* border: 1px solid blue; */
+   color: white;
+}
+.box-inside-box p{
+   
+ /* border: 2px solid; */
+ padding-left: 10px;
+  font-weight: 500;
+  font-family: 'Baloo Bhai 2';
+  
+}
+
+/*  footer my shop images stle */
+
+#footer-bottom{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 250px;
+    align-items: center;
+    
+}
+#footer-bottom p {
+color: white;
+font-family: 'Baloo Bhai 2';
+}
+.myShopImage{
+    width:100px ;
+    height: 100px;
+    margin-bottom: 8px;
+}
+
+.last-one{
+    display: flex;
+    margin-top: 16px;
+}
+.last-one p{
+   margin-right: 18px;
+   cursor: pointer;
+}
+
+
+
+
+
+/* utility Classes */
+.h-primary{
+   
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(29 2 73);
+    margin-top: 0px;
+    text-shadow: 3px 3px lightslategrey;
+    font-family: 'Pacifico', cursive;
+}
+
+.h-secondary{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+    font-family:'Balsamiq Sans', cursive;
+}
+
+.p-primary{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 17px;
+    font-family:'Balsamiq Sans', cursive;;
+}
+
+.h-ternary{
+    margin-top: 10px;
+   font-size: 26px;
+   font-weight: bold;
+   color: #008f00!important;
+   font-family: 'Patrick Hand', cursive;
+}
+
+.p-secondary{
+    margin-top: 10px;
+    font-size: 19px;
+    /* border: 2px solid black; */
+    height: 100px;
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: justify;
+}
+.p-ternary{
+    text-align: center;
+    font-size: 19px;
+    margin-top: 18px;
+    text-shadow: 1px 1px 1px rgb(126, 126, 126);
+    font-family: 'Balsamiq Sans', cursive;
+}
+.p-footer{
+    margin-bottom: 3px;
+    margin-top: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+#p-foooter{
+    padding-bottom: 10px;
+    font-weight: 900;
+    font-size: 22px;
+    cursor: none;
+}
+.icon-footer
+{
+    border: 2px sol;
+}
+
+/* Name Design */
+.design p{
+    /* background-color: rgb(177, 149, 149); */
+   
+    padding: 5px;
+    position: absolute;
+    font-size: 21px;
+    text-transform: uppercase;
+    right: 8px;
+    bottom: -5px;
+    border-radius: 8px;
+    /* box-shadow: 2px 2px 3px 5px rgb(125, 125, 179); */
+    /* background-color: rgb(24 119 242); */
+}
